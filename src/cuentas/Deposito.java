@@ -16,9 +16,10 @@ public class Deposito {
      */
     public static void main(String[] args) {
         cantidad();
+        System.out.println("comienza a funcionar");
     }
 
-    private static float cantidad() {
+    private static void cantidad() {
         CCuenta cuenta1;
         double saldoActual;
         
@@ -37,7 +38,7 @@ public class Deposito {
         } catch (Exception r) {
             System.out.println("Fallo al ingresar");
         }
-        return 0;
+        
     }
     
 }
